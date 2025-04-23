@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f3;
+    }
+    header, footer {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav {
+      background-color: #666;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    .hobby-gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hobby-item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      max-width: 300px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Hobbies</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="favorite-food.html">Favorite Food</a>
+    <a href="professional-background.html">Professional Background</a>
+    <a href="country.html">Country</a>
+  </nav>
+
+  <main>
+    <p>Here are three hobbies that I really enjoy during my free time:</p>
+    <div class="hobby-gallery">
+      <div class="hobby-item">
+        <img src="bodyboard.jpg" alt="Bodyboarding">
+        <h2>Bodyboarding</h2>
+        <p>A fun discipline to do in summer and in contact with nature.</p>
+      </div>
+      <div class="hobby-item">
+        <img src="soccer.jpg" alt="Soccer">
+        <h2>Soccer</h2>
+        <p>Team sport that I have practiced since I was a child...</p>
+      </div>
+      <div class="hobby-item">
+        <img src="basketball.jpg" alt="Basketball">
+        <h2>Basketball</h2>
+        <p>A very fun sport, but above all physically demanding!.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rodrigo Vivas</p>
+  </footer>
+</body>
+</html>
