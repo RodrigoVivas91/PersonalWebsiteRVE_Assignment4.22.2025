@@ -10,11 +10,29 @@
       background: url('mainbackground3.jpg') no-repeat center center fixed;
       background-size: cover;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
     }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border: 4px solid white;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     .menu {
       background-color: rgba(255, 255, 255, 0.9);
       padding: 40px;
@@ -22,9 +40,11 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
+
     .menu h1 {
       margin-bottom: 20px;
     }
+
     .menu a {
       display: block;
       margin: 10px 0;
@@ -32,18 +52,25 @@
       color: #007BFF;
       font-size: 18px;
     }
+
     .menu a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
+  <div class="profile-pic">
+    <img src="profile.jpg" alt="Profile Picture">
+  </div>
+
   <div class="menu">
-    <h1> Rodrigo Vivas  </h1>
+    <h1>Rodrigo Vivas</h1>
     <a href="favorite-food.html">Favorite Food</a>
     <a href="hobbies.html">Hobbies</a>
     <a href="professional-background.html">Professional Background</a>
-    <a href="Country">Country</a>
+    <a href="country.html">Country</a>
   </div>
+
 </body>
 </html>
